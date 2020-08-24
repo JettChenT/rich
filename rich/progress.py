@@ -7,7 +7,7 @@ from dataclasses import dataclass, field
 from datetime import timedelta
 from math import ceil
 from threading import Event, RLock, Thread
-from time import monotonic, perf_counter
+from time import monotonic
 from typing import (
     IO,
     TYPE_CHECKING,
@@ -16,7 +16,6 @@ from typing import (
     Deque,
     Dict,
     Iterable,
-    Iterator,
     List,
     NamedTuple,
     NewType,
